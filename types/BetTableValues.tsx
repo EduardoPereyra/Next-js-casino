@@ -24,15 +24,15 @@ export class BetTableValuesList {
         },
         {
           value: "12",
-          color: "b",
-        },
-        {
-          value: "15",
           color: "r",
         },
         {
-          value: "18",
+          value: "15",
           color: "b",
+        },
+        {
+          value: "18",
+          color: "r",
         },
         {
           value: "21",
@@ -48,15 +48,15 @@ export class BetTableValuesList {
         },
         {
           value: "30",
-          color: "b",
-        },
-        {
-          value: "33",
           color: "r",
         },
         {
-          value: "36",
+          value: "33",
           color: "b",
+        },
+        {
+          value: "36",
+          color: "r",
         },
         { value: "2 to 1", color: "" },
       ],
@@ -82,15 +82,15 @@ export class BetTableValuesList {
         },
         {
           value: "11",
-          color: "r",
-        },
-        {
-          value: "14",
           color: "b",
         },
         {
-          value: "17",
+          value: "14",
           color: "r",
+        },
+        {
+          value: "17",
+          color: "b",
         },
         {
           value: "20",
@@ -106,15 +106,15 @@ export class BetTableValuesList {
         },
         {
           value: "29",
-          color: "r",
-        },
-        {
-          value: "32",
           color: "b",
         },
         {
-          value: "35",
+          value: "32",
           color: "r",
+        },
+        {
+          value: "35",
+          color: "b",
         },
         { value: "2 to 1", color: "" },
       ],
@@ -145,11 +145,11 @@ export class BetTableValuesList {
         },
         {
           value: "13",
-          color: "r",
+          color: "b",
         },
         {
           value: "16",
-          color: "b",
+          color: "r",
         },
         {
           value: "19",
@@ -169,11 +169,11 @@ export class BetTableValuesList {
         },
         {
           value: "31",
-          color: "r",
+          color: "b",
         },
         {
           value: "34",
-          color: "b",
+          color: "r",
         },
         { value: "2 to 1", color: "" },
       ],

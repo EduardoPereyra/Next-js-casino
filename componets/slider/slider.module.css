@@ -1,0 +1,21 @@
+.slider {
+  height: calc(150px * 2.5);
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #551c37;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #e4e4e4;
+}
+
+.sliderTrack {
+  display: flex;
+  flex-direction: column;
+  transition: 1.5s ease-in-out;
+}
+
+.slide {
+  height: 100px;
+  padding: 25px 0;
+  border-bottom: 1px solid lightgray;
+}

@@ -1,0 +1,155 @@
+.pageContainer {
+  height: 100%;
+  width: 100%;
+}
+.pageContainer h1 {
+  margin: 20px;
+  color: white;
+  font-size: xxx-large;
+  font-family: fantasy;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  margin: auto;
+  background-color: #630857;
+  padding: 80px 0;
+  border-radius: 250px 250px 0 0;
+  box-shadow: -10px -10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.slidersContainer {
+  display: flex;
+  width: 50%;
+}
+
+.leverContainer {
+  position: relative;
+  top: 15vh;
+  left: 3vw;
+}
+.coinsContainer {
+  position: relative;
+  top: 60px;
+  left: -15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coinsContainer h2 {
+  color: white;
+  padding-top: 80px;
+}
+
+.coinsContainer button {
+  background-color: #32042c;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.coinsContainer button:hover,
+.coinsContainer button:active {
+  outline: white 1px;
+}
+
+#lever {
+  position: relative;
+  top: 50%;
+  z-index: -10;
+  cursor: pointer;
+}
+
+.bottom {
+  background: #bcbcbc;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.screw {
+  background: #333;
+  width: 15px;
+  height: 50px;
+  border-radius: 40px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screw::before {
+  content: "";
+  background: #111;
+  width: 10px;
+  height: 30px;
+  display: block;
+  border-radius: 10px;
+}
+
+.top {
+  background: #333;
+  width: 60px;
+  height: 15px;
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: left top;
+  transform: rotate(-50deg);
+  z-index: 1;
+  box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.pull {
+  background: #222;
+  animation: pull-lever 600ms ease-in 1 normal both;
+}
+
+@keyframes pull-lever {
+  0% {
+    right: 20px;
+    top: 27px;
+    transform: rotate(-50deg);
+  }
+  100% {
+    right: 12px;
+    top: 32px;
+    transform: rotate(30deg);
+  }
+}
+
+.ball {
+  content: "";
+  display: block;
+  background: #ca1717;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -40px;
+  top: -20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.winsContainer {
+  background-color: #630857;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+}

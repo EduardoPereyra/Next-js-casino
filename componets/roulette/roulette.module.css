@@ -1,0 +1,62 @@
+.rouletteContainer {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  background-color: #630857;
+  padding: 30px 0;
+  border-radius: 250px 250px 0 0;
+  box-shadow: -10px -10px 20px 0px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.betContainer {
+  position: absolute;
+  top: 60px;
+  right: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.betContainer button {
+  background-color: #32042c;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.betContainer button:hover,
+.betContainer button:active {
+  outline: white 1px;
+}
+
+.ball {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  transition: 1s ease-in;
+  top: 130px;
+  left: 50%;
+  transform-origin: 0 200px;
+}
+
+.ball:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  position: absolute;
+  margin: auto;
+  bottom: 2px;
+  right: 5px;
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 5px 2px 0 0 #cdcdcd;
+}

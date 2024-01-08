@@ -1,0 +1,39 @@
+.betTableContainer {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.betTableContainer table {
+  border-spacing: 0;
+  background-color: #1b7121;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.betTableContainer td {
+  border: 3px solid white;
+  text-align: center;
+}
+
+.betTableContainer td button {
+  padding: 1rem;
+  width: 100%;
+  background-color: #1b7121;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.betTableContainer td button span {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.betTableContainer td button:hover {
+  background-color: #154c19;
+}
